@@ -21,12 +21,12 @@
                 _frog_layer {
 // -----------------------------------------------------------------------------------------
 // |  ESC |  F  |  D  |  N  |  I  |  G  |    |  G  |  I  |  N  |  D  |  F  | ESC  |
-// | BKSP |  S  |  T  |  H  |  E  |  O  |    |  O  |  E  |  H  |  T  |  S  | BKSP |
+// | BSPC |  S  |  T  |  H  |  E  |  O  |    |  O  |  E  |  H  |  T  |  S  | BSPC |
 // | SHFT |  C  |  W  |  R  |  A  |  U  |    |  U  |  A  |  R  |  W  |  C  | SHFT |
 //                    | NUM | SYM | SPC |    | SPC | SYM | NUM |
                         bindings = <
    &kp ESC   &kp F &kp D &kp N &kp I &kp G   &kp G &kp I  &kp N &kp D &kp F &kp ESC
-   &kp BSPC  &kp S &kp T &kp H &kp E &kp O   &kp O &kp E  &kp H &kp T &kp S &kp BKSP
+   &kp BSPC  &kp S &kp T &kp H &kp E &kp O   &kp O &kp E  &kp H &kp T &kp S &kp BSPC
    &kp LSHFT &kp C &kp W &kp R &kp A &kp U   &kp U &kp A  &kp R &kp W &kp C &kp RSHFT
             &mo 3 &mo 2 &lt _FROG2 SPACE     &lt _FROG2 SPACE &mo 2 &mo 3
                         >;
@@ -34,14 +34,14 @@
 				_frog2_layer {
 // -----------------------------------------------------------------------------------------
 // |  ENT |  J  |  K  |  M  |  '  |  -_ |    |  -_ |  '  |  M  |  K  |  J  | ENT  |
-// | BKSP |  Y  |  P  |  L  |  .  |  Q  |    |  Q  |  .  |  L  |  P  |  Y  | BKSP |
+// | BSPC |  Y  |  P  |  L  |  .  |  Q  |    |  Q  |  .  |  L  |  P  |  Y  | BSPC |
 // | SHFT |  X  |  B  |  V  |  ,  |  Z  |    |  Z  |  ,  |  V  |  B  |  X  | SHFT |
 //                    | NUM | SYM | SPC |    | SPC | SYM | NUM |
                         bindings = <
-   &kp ENT   &kp J &kp K &kp M &kp SQT   &kp MINUS   &kp MINUS &kp SQT    &kp M &kp K &kp J &kp ENT
-   &kp BSPC  &kp Y &kp P &kp L &kp DOT   &kp Q       &kp Q     &kp DOT    &kp L &kp P &kp Y &kp BKSP
-   &kp RSHFT &kp X &kp B &kp V &kp COMMA &kp Z       &kp Z     &kp COMMA  &kp V &kp B &kp X &kp RSHFT
-            &mo 3 &mo 2 &lt _FROG2 SPACE             &lt _FROG2 SPACE &mo 2 &mo 3
+   &kp RET   &kp J &kp K &kp M &kp SQT   &kp MINUS   &kp MINUS &kp SQT    &kp M &kp K &kp J &kp RET
+   &kp BSPC  &kp Y &kp P &kp L &kp DOT   &kp Q       &kp Q     &kp DOT    &kp L &kp P &kp Y &kp BSPC
+   &kp RSHFT &kp X &kp B &kp V &kp COMMA &kp Z       &kp Z     &kp COMMA  &kp V &kp B &kp X &kp LSHFT
+				   &mo 3 &mo 2 &lt _FROG2 SPACE      &lt _FROG2 SPACE &mo 2 &mo 3
                         >;
                 };
                 _sym_layer {
